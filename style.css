@@ -1,0 +1,39 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	
+}
+section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+section > .main{
+	width: 50%;
+	min-width: 450px;
+}
+.img{
+	background-image: url(images/shoe.png);
+	height: 550px;
+    /*width: 100%;*/
+    background-size: cover;
+    background-position: center;
+}
+img{
+	height: 80px;
+	width: 60px;
+}
+.para1{
+	width: 85%;
+	font-weight: bold;
+}
+.para2{
+	color: grey;
+	margin: 0
+}
+.para4 > span{
+	margin-left: 350px;
+}
+.btn{
+	
+}
